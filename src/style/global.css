@@ -1,0 +1,25 @@
+:root {
+    /* Color Palette */
+    --bg: #0b0b0b;
+    --surface: #141414;
+    --surface-2: #1e1e1e;
+  --accent: #ff5e00;
+  --accent-2: #00e5ff;
+  --text: #ffffff;
+  --text-dim: #a0a0a0;
+
+  --font-main: 'Inter', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--bg);
+  background-color: var(--text);
+  color: var(--font-main);
+  line-height: 1.5;
+}
